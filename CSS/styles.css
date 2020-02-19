@@ -1,5 +1,5 @@
 body { 
-    padding-top: 200px; 
+    padding-top: 250px; 
 }
 
 .navbar {
@@ -32,9 +32,8 @@ body {
         margin: 10px 3px;
         border-radius: 25%;
         width: 150px;
-        height: 65px;
+        
 }
-
 
 /* Beginning of Search Bar CSS
 --------------------------------------------------------------------*/
@@ -180,3 +179,69 @@ body {
 /* End of Search Bar CSS
 --------------------------------------------------------------------*/
 
+.qimage{
+    width: 500px;
+    height: 500px;
+}
+
+.btn2{
+    background-color: #fc7c33;
+        border: none;
+        color: black;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 3px;
+        border-radius: 10%;
+        width: 200px;
+}
+
+.btn3{
+    background-color: #4af64f;
+        border: none;
+        color: black;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 3px;
+        border-radius: 10%;
+        width: 200px;
+}
+
+h1{
+    color: darkblue
+}
+
+
+
+/* Beginning of Carousel CSS
+--------------------------------------------------------------------*/
+
+  .carousel{
+    margin-top: 400px;
+    margin-bottom: 200px;
+    height: 700px;
+    width: 525px;
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img{
+  height: 700px;
+  width: auto;
+  margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* End of Carousel CSS
+--------------------------------------------------------------------*/
