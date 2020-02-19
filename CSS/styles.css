@@ -243,5 +243,25 @@ img {
     height: auto;
   }
 
+  .cbox{
+      border: 1px;
+  }
+
+
   /* End of Carousel CSS
 --------------------------------------------------------------------*/
+
+
+/* Style all font awesome icons */
+.fab {
+    padding: 10px;
+    font-size: 50px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
