@@ -1,0 +1,16 @@
+body { 
+    padding-top: 100px; 
+}
+
+.navbar-nav > li {
+    float: left;
+    position: relative;
+  }
+  .navbar-light .navbar-nav .active a::after {
+    border-bottom: 4px solid #5bc0eb;
+    bottom: -1px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
