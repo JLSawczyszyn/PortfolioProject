@@ -451,7 +451,7 @@ section .section-title {
 }
 #accordion .panel-title a {
   background: rgb(222,13,13);
-  background: linear-gradient(90deg, rgba(222,13,13,1) 5%, rgba(107,209,51,1) 45%, rgba(105,209,56,1) 66%, rgba(24,210,236,1) 85%);; none repeat scroll 0 0;
+  background: linear-gradient(90deg, rgba(222,13,13,1) 5%, rgba(107,209,51,1) 45%, rgba(105,209,56,1) 66%, rgba(24,210,236,1) 85%); none repeat scroll 0 0;
   border: 1px solid transparent;
   border-radius: 30px;
   color: #fff;
