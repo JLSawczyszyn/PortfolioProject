@@ -1,4 +1,75 @@
+
+/*-------------------------------------------js for carousel start-----------------------------*/
+
 'use strict';
+
+var carouselImgs = [
+    {
+        imgSrc: "img/Carousel/ACLULGBT.jpg",
+        imgDesc: "A pride flag gift from the ACLU"
+    },
+    {
+        imgSrc: "Img/Carousel/ACLUTRANS.jpg",
+        imgDesc: "A trans pride flag gift from the ACLU"
+    },
+    {
+        imgSrc: "Img/Carousel/FanJamRen.jpg",
+        imgDesc: "Fantasia, Fox, and Renee art layers"
+    },
+    {
+        imgSrc: "Img/Carousel/GriffinSilly.jpg",
+        imgDesc: "Griffin being silly"
+    },
+    {
+        imgSrc: "Img/Carousel/GrifSanRen.jpg",
+        imgDesc: "Griffin, Sandy, and Renee"
+    },
+    {
+        imgSrc: "Img/Carousel/Guestpic.jpg",
+        imgDesc: "Guest singing at an event"
+    },
+    {
+        imgSrc: "Img/Carousel/RenJam....jpg",
+        imgDesc: "Renee and Fox" 
+    },
+    {
+        imgSrc: "Img/Carousel/Joe.jpg",
+        imgDesc: "Joe Cox"
+    },
+    {
+        imgSrc: "Img/Carousel/Griff.jpg",
+        imgDesc: "Griffin"
+    },
+    {
+        imgSrc: "Img/Carousel/RenAnd.jpg",
+        imgDesc: "Renee and Andreas"
+    },
+    {
+        imgSrc: "Img/Carousel/RenAndGrif.jpg",
+        imgDesc: "Renee, Andy, and Griffin"
+    },
+    {
+        imgSrc: "Img/Carousel/RenAndGrifSilly.jpg", 
+        imgDesc: "Renee, Andy, and Griffin being silly"
+    },
+    {
+        imgSrc: "img/Carousel/ReneeTalkinf.jpg",
+        imgDesc: "Renee in the studio"
+    },
+    {
+        imgSrc: "img/Carousel/Stylebook.jpg",
+        imgDesc: "NGJLA's stylebook of termonology"
+    },
+    {
+        imgSrc: "Img/Carousel/TuneIn.jpg",
+        imgDesc: "Tune in every week at 7pm!"
+    },
+    {
+        imgSrc: "Img/Carousel/OnAir.jpg",
+        imgDesc: "Where to find us"
+    },
+]
+
 
 var carousel = function carousel(options) {
 
@@ -9,8 +80,8 @@ var carousel = function carousel(options) {
         stopped: false,
 
         options: {
-            speed: 3000,
-            acceleration: 5,
+            speed: 4500,
+            acceleration: 4,
             reverse: false,
             selector: '.c-carousel',
             slidesSelector: '.c-carousel__slides',
@@ -45,7 +116,7 @@ var carousel = function carousel(options) {
             this._registerEvents();
             this._animate();
         },
-        
+
         _registerEvents: function _registerEvents() {
             var _this = this;
 
@@ -123,7 +194,6 @@ var carousel = function carousel(options) {
     };
 
     _carousel.init(options);
-
     return _carousel;
 };
 
@@ -132,3 +202,49 @@ window.onload = function () {
         selector: '.c-carousel'
     });
 };
+
+$(document).ready(function(){
+    addImgs();    
+});
+
+function addImgs(){
+    for (var i = 0; i < carouselImgs.length; i++){
+        var imgSource = carouselImgs[i].imgSrc;
+        var imgDescrip = carouselImgs[i].imgDesc;
+        var imgID = "#img-" + i;
+        $("#carouselSlides").append('<li><img id=' + imgID + ' class="cimg" src=' + imgSource + ' /></li>')
+        $("#carouselSlides").on("mouseover", ".cimg", function(){
+            var selectedImg = $(this).closest("img");
+            console.log("WOW");
+        })
+    }
+}
+
+/*-------------------------------------------js for carousel end-----------------------------*/
+
+
+
+/*-------------------------------------------js for accordion start-----------------------------*/
+
+
+(function($) {
+	'use strict';
+	
+	jQuery(document).on('ready', function(){
+	
+			$('a.page-scroll').on('click', function(e){
+				var anchor = $(this);
+				$('html, body').stop().animate({
+					scrollTop: $(anchor.attr('href')).offset().top - 50
+				}, 1500);
+				e.preventDefault();
+			});		
+
+	}); 	
+
+				
+})(jQuery);
+
+
+/*-------------------------------------------js for accordion-----------------------------*/
+
