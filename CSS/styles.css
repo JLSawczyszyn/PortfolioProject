@@ -237,7 +237,7 @@ h1{
 /* Beginning of Carousel CSS
 --------------------------------------------------------------------*/
   
-  img {
+  .cimg {
     display: block;
     height: 400px;
     margin-right: 10px;
@@ -246,7 +246,8 @@ h1{
   .c-carousel {
     width: 100%;
     position: relative;
-    margin-top: 30px;
+    margin-top: 300px;
+    margin-bottom: 200px;
   }
   .c-carousel__arrow {
     width: 30px;
