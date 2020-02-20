@@ -13,6 +13,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="JS/myscripts.js"></script>
+
+
 </head>
 
 <body>
@@ -56,28 +69,69 @@
 
 
     <section id="team" class="pb-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 text-center">
-                <h1>QTheMic</h1>
-                <h5><i>"Hilarious and Gritty"</i><br><br>
-                    LIVE Every Thursday at 7pm EST <br><br>
-                    @ 92.9FM WGGT Philadelphia <br><br>
-                    or at <br><br></h5>
-                <a href="http://www.gtownradio.com/" target="_blank" class="btn2 btn-primary navbar-btn btn-lg"
-                    role="button">G-Town Radio</a><br><br>
-                <h5>and at <br><br></h5>
-                <a href="https://q-the-mic.pinecast.co" target="_blank" class="btn3 btn-primary navbar-btn btn-lg"
-                    role="button">Pinecast Podcasts</a><br><br>
-            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <h1>QTheMic</h1>
+                    <h5><i>"Hilarious and Gritty"</i><br><br>
+                        LIVE Every Thursday at 7pm EST <br><br>
+                        @ 92.9FM WGGT Philadelphia <br><br>
+                        or at <br><br></h5>
+                    <a href="http://www.gtownradio.com/" target="_blank" class="btn2 btn-primary navbar-btn btn-lg"
+                        role="button">G-Town Radio</a><br><br>
+                    <h5>and at <br><br></h5>
+                    <a href="https://q-the-mic.pinecast.co" target="_blank" class="btn3 btn-primary navbar-btn btn-lg"
+                        role="button">Pinecast Podcasts</a><br><br>
+                </div>
 
-            <div class="col-sm-6">
-                <img class="qimage background-tint rounded" src="img/Q.jpg" />
+                <div class="col-sm-6">
+                    <img class="qimage background-tint rounded" src="img/Q.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <div class="c-carousel">
+            <div class="c-carousel__arrow c-carousel__arrow--left"></div>
+            <div class="c-carousel__arrow c-carousel__arrow--right"></div>
+            <ul class="c-carousel__slides">
+                <li><img src="//unsplash.it/300/450?random=1" /></li>
+                <li><img src="//unsplash.it/300/450?random=2" /></li>
+                <li><img src="//unsplash.it/300/450?random=3" /></li>
+                <li><img src="//unsplash.it/300/450?random=4" /></li>
+                <li><img src="//unsplash.it/300/450?random=5" /></li>
+                <li><img src="//unsplash.it/300/450?random=6" /></li>
+            </ul>
+        </div>
+        </div>
+</body>
+
+
+<footer class="py-4 bg-dark text-white-50 page-footer">
+
+    <div class="container text-center">
+        <div class="row text-center d-flex justify-content-center">
+            <div class="col-md-2 mb-3">
+                <a href="https://www.facebook.com/QtheMicRadio/" class="fa fab fa-facebook"></a>
+                <a href="https://twitter.com/qthemicradio" class="fa fab fa-twitter"></a>
+                <a href="https://www.instagram.com/qmicradio/?hl=en" class="fa fab fa-instagram"></a>
+                <a href="https://open.spotify.com/show/5pv0XmNH3EMLamVug005pj" class="fa fab fa-spotify"></a>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="footer-copyright text-left text-white py-3">© 2020 Copyright:
+        <a href="https://github.com/JLSawczyszyn">Jamie Lyn Sawczyszyn</a>
+    </div>
+
+    <div class="footer-text text-right text-white">Photographer: Carolyn E. Massey ~ Logo: Nadia Lozano</div>
+
+</footer>
+
+
+</html>
+
+
+<!--<div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
                 <div id="carouselStudioPics" class="carousel slide" data-ride="carousel">
@@ -224,7 +278,7 @@
                                 <p>...</p>
                             </div>
                         </div>
-                        <!--Insert more pictures and captions Here and LINK to OL at top!-->
+                       
                     </div>
 
                     <a class="carousel-control-prev" href="#carouselStudioPics" role="button" data-slide="prev">
@@ -238,43 +292,4 @@
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
-
-
-<footer class="py-4 bg-dark text-white-50 page-footer">
-
-    <div class="container text-center">
-        <div class="row text-center d-flex justify-content-center">
-            <div class="col-md-2 mb-3">
-                <a href="https://www.facebook.com/QtheMicRadio/" class="fa fab fa-facebook"></a>
-                <a href="https://twitter.com/qthemicradio" class="fa fab fa-twitter"></a>
-                <a href="https://www.instagram.com/qmicradio/?hl=en" class="fa fab fa-instagram"></a>
-                <a href="https://open.spotify.com/show/5pv0XmNH3EMLamVug005pj" class="fa fab fa-spotify"></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-copyright text-left text-white py-3">© 2020 Copyright:
-        <a href="https://github.com/JLSawczyszyn">Jamie Lyn Sawczyszyn</a>
-    </div>
-
-    <div class="footer-text text-right text-white">Photographer: Carolyn E. Massey ~  Logo: Nadia Lozano</div>
-
-</footer>
-
-
-</html>
+    </div>-->

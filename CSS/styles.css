@@ -236,31 +236,44 @@ h1{
 
 /* Beginning of Carousel CSS
 --------------------------------------------------------------------*/
-
-  .carousel{
-    margin-top: 400px;
-    margin-bottom: 200px;
-    height: 700px;
-    width: 525px;
-}
-
-.carousel-item,
-.carousel-inner,
-.carousel-inner img{
-  height: 700px;
-  width: auto;
-  margin: auto;
-}
-
-img {
+  
+  img {
+    display: block;
+    height: 400px;
+    margin-right: 10px;
+  }
+  
+  .c-carousel {
     width: 100%;
-    height: auto;
+    position: relative;
+    margin-top: 30px;
   }
-
-  .cbox{
-      border: 1px;
+  .c-carousel__arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+            transform: translateY(-50%) rotate(45deg);
+    background-color: white;
   }
-
+  .c-carousel__arrow--left {
+    left: 15px;
+  }
+  .c-carousel__arrow--right {
+    right: 15px;
+  }
+  .c-carousel__slides {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    will-change: transform;
+  }
+  
 
   /* End of Carousel CSS
 --------------------------------------------------------------------*/
