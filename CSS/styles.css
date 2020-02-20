@@ -506,3 +506,31 @@ section .section-title {
 
  /* End of Accordion CSS
 -------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .btn {
+    font-size:16px;
+    padding:4px 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size:16px;
+    padding:6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size:16px;
+    padding:8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding:10px 16px;
+    font-size:18px;
+  }
+}
