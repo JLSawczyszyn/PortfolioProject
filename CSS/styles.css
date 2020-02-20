@@ -1,12 +1,12 @@
 body { 
-    padding-top: 250px; 
+    padding-top: 200px; 
  
 }
 
 .background-tint {
 
     background: white
-    
+   
    
 }
 
@@ -41,6 +41,12 @@ body {
         border-radius: 25%;
         width: 150px;
         
+}
+
+.btn-right{
+    position: absolute;
+    right: 150px;
+  
 }
 
 /* Beginning of Search Bar CSS
