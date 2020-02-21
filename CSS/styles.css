@@ -1,5 +1,5 @@
 body { 
-    padding-top: 200px; 
+    padding-top: 175px; 
  
 }
 
@@ -28,6 +28,18 @@ body {
     right: 0;
   }
 
+  
+.qimage{
+  width: 500px;
+  height: 500px;
+}
+
+
+h1{
+  color: #0062cc
+}
+
+
 .btn{
         background-color: #0fc5fb;
         border: none;
@@ -37,7 +49,6 @@ body {
         text-decoration: none;
         display: inline-block;
         font-size: 20px;
-        margin: 10px 3px;
         border-radius: 25%;
         width: 150px;
         
@@ -47,6 +58,65 @@ body {
     position: absolute;
     right: 150px;
   
+}
+
+.btn2{
+  background-color: #fc7c33;
+      border: none;
+      color: black;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 3px;
+      border-radius: 10%;
+      width: 200px;
+}
+
+.btn3{
+  background-color: #4af64f;
+      border: none;
+      color: black;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 3px;
+      border-radius: 10%;
+      width: 200px;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size:16px;
+    padding:4px 6px;
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size:16px;
+    padding:6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size:16px;
+    padding:8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding:10px 16px;
+    font-size:18px;
+  }
 }
 
 /* Beginning of Search Bar CSS
@@ -192,46 +262,6 @@ body {
 
 /* End of Search Bar CSS
 ------------------------------------------------------------------------------------------*/
-
-.qimage{
-    width: 500px;
-    height: 500px;
-}
-
-.btn2{
-    background-color: #fc7c33;
-        border: none;
-        color: black;
-        padding: 15px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        font-weight: bold;
-        margin: 10px 3px;
-        border-radius: 10%;
-        width: 200px;
-}
-
-.btn3{
-    background-color: #4af64f;
-        border: none;
-        color: black;
-        padding: 15px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        font-weight: bold;
-        margin: 10px 3px;
-        border-radius: 10%;
-        width: 200px;
-}
-
-h1{
-    color: darkblue
-}
-
 
 
 /* Beginning of Carousel CSS
@@ -507,32 +537,37 @@ section .section-title {
  /* End of Accordion CSS
 -------------------------------------------------------------------------------*/
 
-@media (max-width: 768px) {
-  .btn {
-    font-size:16px;
-    padding:4px 6px;
-  }
-}
 
-@media (min-width: 768px) {
-  .btn {
-    font-size:16px;
-    padding:6px 12px;
-  }
-}
 
-@media (min-width: 992px) {
-  .btn {
-    font-size:16px;
-    padding:8px 12px;
-  }
+.contact-form{
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 65%;
 }
-
-@media (min-width: 1200px) {
-  .btn {
-    padding:10px 16px;
-    font-size:18px;
-  }
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  border-radius: 6rem;
+  width: 12%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form{
+  padding: 12%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 6%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
 }
 
 
