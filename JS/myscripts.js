@@ -212,11 +212,12 @@ function addImgs(){
         var imgSource = carouselImgs[i].imgSrc;
         var imgDescrip = carouselImgs[i].imgDesc;
         var imgID = "#img-" + i;
-        $("#carouselSlides").append('<li><img id=' + imgID + ' class="cimg" src=' + imgSource + ' /></li>')
-        $("#carouselSlides").on("mouseover", ".cimg", function(){
+        $("#carouselSlides").append('<li><img id=' + imgID + ' title="' + imgDescrip + '" class="cimg" src=' + imgSource + ' /></li>')
+        
+       /*-------- $("#carouselSlides").on("mouseover", ".cimg", function(){
             var selectedImg = $(this).closest("img");
             console.log("WOW");
-        })
+        })*/
     }
 }
 
