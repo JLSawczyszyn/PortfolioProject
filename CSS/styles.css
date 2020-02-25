@@ -60,6 +60,66 @@ h1{
   
 }
 
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
 .btn2{
   background-color: #fc7c33;
       border: none;
@@ -539,6 +599,8 @@ section .section-title {
 
 
 
+ /* Start of Contact CSS
+-------------------------------------------------------------------------------*/
 .contact-form{
   background: #fff;
   margin-top: 10%;
@@ -555,6 +617,7 @@ section .section-title {
   border-radius: 6rem;
   width: 12%;
   margin-top: -3%;
+  margin-left: 95px;
   transform: rotate(29deg);
 }
 .contact-form form{
@@ -571,3 +634,44 @@ section .section-title {
 }
 
 
+ /* End of Contact CSS
+-------------------------------------------------------------------------------*/
+
+
+
+
+ /* Start of Tabs CSS----------------------------------------------------------*/
+
+ #guests {
+  background-color: #eee;
+  padding: 100px 0;
+}
+#guests .accordion .card {
+  border: none;
+}
+#guests .accordion .card img {
+  height: 200px;
+  width: 200px;
+}
+#guests .accordion .card .accordion-group .card-header {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+#guests .accordion .card .accordion-group .card-header:hover{
+    background-color: #e8c358;
+    
+  
+}
+
+
+
+#guests .accordion .card .accordion-group .card-header a {
+  text-decoration: none;
+  color: #000;
+}
+#guests .accordion .card .accordion-group .card-header a:hover {
+  color: white;
+}
+
+/* End of Tabs CSS----------------------------------------------------------*/
