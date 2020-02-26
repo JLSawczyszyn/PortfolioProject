@@ -247,5 +247,19 @@ function addImgs(){
 })(jQuery);
 
 
-/*-------------------------------------------js for accordion-----------------------------*/
+/*-------------------------------------------js for accordion end-----------------------------*/
 
+/*-----------------------------
+
+var ci = document.querySelector('contact-image');
+ci.addEventListener('mouseover', makeBlue);
+ci.addEventListener('mouseout', makeYellow);
+
+function makeBlue(){
+    ci.style.background - 'blue';
+}
+
+function makeYellow(){
+    ci.style.background - 'yellow';
+}
+.........................*/
