@@ -1,5 +1,5 @@
 
-/*-------------------------------------------js for carousel start-----------------------------*/
+////////////////////////////////////////////////////js for carousel start/////////////////////////////////////////////
 
 'use strict';
 
@@ -221,11 +221,11 @@ function addImgs(){
     }
 }
 
-/*-------------------------------------------js for carousel end-----------------------------*/
+/////////////////////////////////////////////////////js for carousel end//////////////////////////////////////////////////
 
 
 
-/*-------------------------------------------js for accordion start-----------------------------*/
+///////////////////////////////////////////////////js for accordion start///////////////////////////////////////
 
 
 (function($) {
@@ -247,19 +247,5 @@ function addImgs(){
 })(jQuery);
 
 
-/*-------------------------------------------js for accordion end-----------------------------*/
+////////////////////////////////////////////////js for accordion end///////////////////////////////////////////////////
 
-/*-----------------------------
-
-var ci = document.querySelector('contact-image');
-ci.addEventListener('mouseover', makeBlue);
-ci.addEventListener('mouseout', makeYellow);
-
-function makeBlue(){
-    ci.style.background - 'blue';
-}
-
-function makeYellow(){
-    ci.style.background - 'yellow';
-}
-.........................*/
