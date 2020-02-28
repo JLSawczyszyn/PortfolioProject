@@ -1,6 +1,68 @@
+h1{
+  font-family: Merriweather; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 550; 
+  color: #0062cc
+}
+
+
+h3 { font-family: Merriweather; 
+  font-size: 40px;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+} 
+
+h2{
+  font-family: Merriweather; 
+  font-size: ;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 530;
+} 
+h4{
+  font-family: Merriweather;
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 530;
+} 
+h5{
+  font-family: Merriweather;
+  font-size: 23px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 530;
+} 
+h6{
+  font-family: Merriweather; 
+  font-size: 20px;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 530;
+}
+  
+p { font-family: Merriweather;
+   font-size: 19px; 
+   font-style: normal;
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 20px; 
+} 
+
+#placeholder{
+  font-family: Merriweather;
+   font-size: 19px; 
+   font-style: normal;
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 20px;
+}
+
 body { 
     padding-top: 175px; 
- 
+
 }
 
 .background-tint {
@@ -12,6 +74,7 @@ body {
 
 .navbar {
     font-size: large;
+    font-family: Merriweather;
 }
 
 .navbar-nav > li {
@@ -34,16 +97,11 @@ body {
   height: 500px;
 }
 
-
-h1{
-  color: #0062cc
-}
-
-
 .btn{
         background-color: #0fc5fb;
         border: none;
         color: white;
+        font-family: Merriweather;
         padding: 15px;
         text-align: center;
         text-decoration: none;
@@ -57,6 +115,7 @@ h1{
 .btn-right{
     position: absolute;
     right: 150px;
+    font-family: Merriweather;
   
 }
 
@@ -133,6 +192,7 @@ h1{
       margin: 10px 3px;
       border-radius: 10%;
       width: 200px;
+      font-family: Merriweather;
 }
 
 .btn3{
@@ -148,6 +208,7 @@ h1{
       margin: 10px 3px;
       border-radius: 10%;
       width: 200px;
+      font-family: Merriweather;
 }
 
 @media (max-width: 768px) {
