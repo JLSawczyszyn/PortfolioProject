@@ -606,14 +606,10 @@ section .section-title {
 .contact-form .form-control{
   border-radius:1rem;
 }
-.contact-image{
-  text-align: center;
-}
 .contact-image img{
   border-radius: 6rem;
   width: 12%;
-  margin-top: -3%;
-  margin-left: 95px;
+  margin-top: -30%;
   transform: rotate(29deg);
 }
 .contact-form form{
