@@ -214,10 +214,7 @@ function addImgs(){
         var imgID = "#img-" + i;
         $("#carouselSlides").append('<li><img id=' + imgID + ' title="' + imgDescrip + '" class="cimg" src=' + imgSource + ' /></li>')
         
-       /*-------- $("#carouselSlides").on("mouseover", ".cimg", function(){
-            var selectedImg = $(this).closest("img");
-            console.log("WOW");
-        })*/
+       
     }
 }
 
