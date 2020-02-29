@@ -241,7 +241,7 @@ body {
 }
 
 /* Beginning of Search Bar CSS
------------------------------------------------------------------------------------------------*/
+////////////////////////////////////////////////////////////////////////////////////////*/
   .search {
     position: absolute;
     top: 12%;
@@ -669,7 +669,7 @@ section .section-title {
 }
 .contact-image img{
   border-radius: 6rem;
-  width: 12%;
+  width: 18%;
   margin-top: -30%;
   transform: rotate(29deg);
 }
