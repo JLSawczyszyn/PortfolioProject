@@ -5,7 +5,7 @@
 
 var carouselImgs = [
     {
-        imgSrc: "img/Carousel/ACLULGBT.jpg",
+        imgSrc: "Img/Carousel/ACLULGBT.jpg",
         imgDesc: "A pride flag gift from the ACLU"
     },
     {
@@ -53,11 +53,11 @@ var carouselImgs = [
         imgDesc: "Renee, Andy, and Griffin being silly"
     },
     {
-        imgSrc: "img/Carousel/ReneeTalkinf.jpg",
+        imgSrc: "Img/Carousel/ReneeTalkinf.jpg",
         imgDesc: "Renee in the studio"
     },
     {
-        imgSrc: "img/Carousel/Stylebook.jpg",
+        imgSrc: "Img/Carousel/Stylebook.jpg",
         imgDesc: "NGJLA's stylebook of termonology"
     },
     {
